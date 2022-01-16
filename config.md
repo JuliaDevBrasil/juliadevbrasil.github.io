@@ -1,8 +1,9 @@
+@def div_content = "container"
 <!--
 Add here global page variables to use throughout your website.
 -->
 +++
-author = "Septimia Zenobia"
+author = "Davi Sales Barreira"
 mintoclevel = 2
 
 # Add here files or directories that should be ignored by Franklin, otherwise
@@ -13,9 +14,9 @@ ignore = ["node_modules/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
-website_title = "Franklin Template"
-website_descr = "Example website using Franklin"
-website_url   = "https://tlienart.github.io/FranklinTemplates.jl/"
+website_title = "JuliaDev Brasil"
+website_descr = "Programação em Julia para brasileiros"
+website_url   = "https://www.juliadev.com.br"
 +++
 
 <!--

@@ -1,4 +1,4 @@
-Sitemap: https://tlienart.github.io/FranklinTemplates.jl/sitemap.xml
+Sitemap: https://www.juliadev.com.br/sitemap.xml
 
 User-agent: *
 Disallow:

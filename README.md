@@ -1,4 +1,3 @@
-<!-- ![https://juliadev.com.br](assets/logo.svg) -->
 <a href='https://juliadev.com.br'><img src="_assets/logo/logo.svg" height="150" /></a>
 
 # Criando Site

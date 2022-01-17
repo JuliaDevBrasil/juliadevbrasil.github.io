@@ -1,8 +1,8 @@
-@def title = "Search ⋅ YourWebsite"
+@def title = "Pequisa ⋅ JuliaDev Brasil"
 
 ## Search
 
-Number of results found: ~~~<span id="resultCount"></span>~~~
+Resultados encontrados: ~~~<span id="resultCount"></span>~~~
 
 ~~~
 <div id="searchResults"></div>

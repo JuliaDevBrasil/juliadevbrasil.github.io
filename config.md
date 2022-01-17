@@ -1,4 +1,4 @@
-@def div_content = "main"
+<!-- @def div_content = "container" -->
 <!--
 Add here global page variables to use throughout your website.
 -->

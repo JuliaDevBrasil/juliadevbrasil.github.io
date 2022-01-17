@@ -1,6 +1,6 @@
-@def title = "Pequisa ⋅ JuliaDev Brasil"
+@def title = "Pequisa ⋅ JuliaDevBrasil"
 
-## Search
+## Pesquisa
 
 Resultados encontrados: ~~~<span id="resultCount"></span>~~~
 

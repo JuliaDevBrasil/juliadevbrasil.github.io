@@ -2,7 +2,16 @@
 @def tags = ["syntax", "code"]
 
 ~~~
-<h1>Hello, world!</h1>
+<section class="section has-background-light">
+			<div class="container">
+				<h1 class="title">
+					Hello Bulma
+				</h1>
+				<p class="subtitle">
+					My first website with <strong>Bulma</strong>!
+				</p>
+			</div>
+</section>
 
 
 ~~~

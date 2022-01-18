@@ -8,24 +8,15 @@
   <link rel="stylesheet" href="/css/franklin.css">
   <link rel="stylesheet" href="/css/basic.css">
   <link rel="icon" href="/assets/favicon.png">
+  {{isdef title}} <title>{{fill title}}</title>  {{end}}
 
   <!-- Loading fontawesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-
-  <!-- Custom javascript -->
-  <script src="/libs/custom.js"></script>
-
-  <!-- lunr for search bar -->
-  <!-- <script src="/libs/lunr/lunr.min.js"></script> -->
-  <!-- <script src="/libs/lunr/lunr_index.js"></script> -->
-  <!-- <script src="/libs/lunr/lunrclient.min.js"></script> -->
-
+  <!-- Loading custom css -->
   <link rel="stylesheet" href="/css/custom.css">
-  
-  {{isdef title}} <title>{{fill title}}</title>  {{end}}
+
 </head>
 <body>
   {{insert header.html}}
 
 <!-- Content appended here -->
-

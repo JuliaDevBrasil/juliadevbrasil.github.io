@@ -28,9 +28,8 @@ Note que informações no template de Franklin podem estar em inglês para facil
 de Julia como um todo.
 
 # Sobre a Logo
-A logo do JuliaDev Brasil é construída utilizando a fonte Lato. Em cima, escreve-se
-"JuliaDev <\\>" em Lato Semi-Bold. O nome "Brasil" é escrito em Lato Light, com 17.5% 
-do tamanho do texto "JuliaDev".
+A logo do JuliaDev Brasil é construída utilizando a fonte JuliaMono. Em cima, escreve-se
+"JuliaDev <\\>" em JuliaMono Semi-Bold. O nome "Brasil" é escrito em JuliaMono Light.
 
 ----
 *English Section*.

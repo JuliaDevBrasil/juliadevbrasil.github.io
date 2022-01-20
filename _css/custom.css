@@ -104,7 +104,8 @@
   --slate800: #1e293b;
   --slate900: #0f172a;
 
-  --backgroundColor: #f0f0ef;
+  --backgroundColor: #fffffe;
+  /* --backgroundColor: #f0f0ef; */
   --textColor: #323537;
   --borderColor: #bcbcbd;
   
@@ -179,6 +180,7 @@ h5 {
 }
 
 a {
+  color:var(--textColor);
   text-decoration: none;
 }
 
@@ -240,4 +242,70 @@ aside {
 aside.info{
   background-color: var(--jyellow100);
   border-left: 2.5px solid var(--jyellow500);
+}
+
+/* 
+=================
+    NavBar
+=================
+*/
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0 2rem;
+  margin-top: 1.6rem;
+}
+
+.navmain{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar li {
+  list-style: none;
+  padding: auto;
+}
+
+.navbar a {
+  font-family: var(--componentFont);
+  display: none;
+  padding: 1rem 0;
+  color: var(--textColor);
+}
+
+.navbar a:hover{
+  color: var(--slate600);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+img.navlogo{
+  width: 15rem;
+}
+
+
+
+/* The hamburguer icon for mobile */
+#menu-icon {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 992px){
+ .navbar ul {
+   max-width: 1520px;
+   margin: 0 auto;
+   border: 10px solid red;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+  } 
+
+  #menu-icon {
+    display: none;
+  }
+
+  .navbar a {
+    display: block;
+  }
 }

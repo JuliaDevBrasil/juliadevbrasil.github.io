@@ -68,7 +68,7 @@
     font-family: JuliaMono;
     font-weight: 900;
     font-style: normal;
-    src: url("JuliaMono-Black.woff2") format("woff2");
+    src: local("JuliaMono Heavy"), url("JuliaMono-Black.woff2") format("woff2");
     text-rendering: optimizeLegibility;
 }
 

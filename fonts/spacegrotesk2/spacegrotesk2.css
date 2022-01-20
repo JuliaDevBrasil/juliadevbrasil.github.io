@@ -1,0 +1,31 @@
+/*
+  Commenting fonts that are not used in order to avoid longer loading times.
+  If you wish to use it, just uncomment.
+
+*/
+
+
+/* @font-face { */
+/*     font-family: SpaceGrotesk-Light; */
+/*     font-style: normal; */
+/*     src: url("./woff2/static/SpaceGrotesk-Light.woff2") format("woff2"); */
+/* } */
+
+/* @font-face { */
+/*     font-family: SpaceGrotesk-Regular; */
+/*     font-style: normal; */
+/*     src: url("./woff2/static/SpaceGrotesk-Regular.woff2") format("woff2"); */
+/* } */
+
+/* @font-face { */
+/*     font-family: SpaceGrotesk-Medium; */
+/*     font-style: normal; */
+/*     src: url("./woff2/static/SpaceGrotesk-Medium.woff2") format("woff2"); */
+/* } */
+
+
+@font-face {
+    font-family: SpaceGrotesk-Bold;
+    font-style: normal;
+    src: url("./woff2/static/SpaceGrotesk-Bold.woff2") format("woff2");
+}

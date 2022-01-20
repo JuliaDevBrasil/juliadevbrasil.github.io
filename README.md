@@ -22,6 +22,10 @@ No momento, a ideia é focar em Tutoriais, Novidades e Pesquisa.
 
 # Criando Site
 Este site foi criado utilizando [Franklin.jl](https://franklinjl.org/), o pacote de Julia mais popular para a criação de sites estáticos.
+Inspiração:
+* Site da fonte [Julia Mono](https://juliamono.netlify.app/);
+* Site [UX Tools](https://uxtools.co/);
+* GitHub [John Smilga](https://github.com/john-smilga/default-starter).
 
 # Template de Franklin
 Note que informações no template de Franklin podem estar em inglês para facilitar seu uso pela comunidade

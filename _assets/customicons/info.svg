@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="38"
+   height="38"
+   viewBox="0 0 10.054166 10.054167"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="info.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     height="1120.5197px"
+     inkscape:zoom="6.1647026"
+     inkscape:cx="9.7328296"
+     inkscape:cy="35.524828"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g5960" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g5960"
+       transform="matrix(0.74155793,0,0,0.74155793,-33.01064,-88.556178)">
+      <g
+         id="g828"
+         transform="matrix(1.0048407,0,0,1.0048407,-0.2483007,-0.61088726)">
+        <g
+           aria-label="i"
+           id="text1244"
+           style="font-size:10.5833px;line-height:1.25;font-family:'CMU Classical Serif';-inkscape-font-specification:'CMU Classical Serif';fill:#ffae00;stroke-width:0.264583">
+          <path
+             d="m 51.236128,123.5206 q -0.412748,0 -0.587373,-0.17462 -0.174624,-0.17462 -0.174624,-0.58737 0,-0.41804 0.174624,-0.58738 0.174625,-0.17462 0.587373,-0.17462 0.418041,0 0.587373,0.17462 0.169333,0.16934 0.169333,0.58738 0,0.41275 -0.174624,0.58737 -0.169333,0.17462 -0.582082,0.17462 z m 0.677332,1.05833 v 4.96357 h 1.486953 v 0.85725 h -4.111612 v -0.85725 h 1.550454 v -4.14336 H 49.18826 v -0.82021 z"
+             style="font-weight:500;font-family:JuliaMono;-inkscape-font-specification:'JuliaMono Medium';fill:#ffae00"
+             id="path5935" />
+        </g>
+        <path
+           id="path2522"
+           style="fill:none;stroke:#ffae00;stroke-width:0.902;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:19.5402;paint-order:markers stroke fill"
+           d="m 57.412227,126.19818 a 6.1178885,6.1178885 0 0 1 -6.117889,6.11789 6.1178885,6.1178885 0 0 1 -6.117888,-6.11789 6.1178885,6.1178885 0 0 1 6.117888,-6.11789 6.1178885,6.1178885 0 0 1 6.117889,6.11789 z" />
+      </g>
+    </g>
+  </g>
+</svg>

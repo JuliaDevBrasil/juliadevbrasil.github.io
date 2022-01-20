@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="38"
+   height="38"
+   viewBox="0 0 10.054166 10.054167"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="note.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     height="1120.5197px"
+     inkscape:zoom="4.359103"
+     inkscape:cx="4.5880999"
+     inkscape:cy="20.18764"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     width="38px" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:7.88612px;line-height:1.25;font-family:'CMU Classical Serif';-inkscape-font-specification:'CMU Classical Serif';fill:#1f83ff;stroke-width:0.197153"
+       x="2.6789911"
+       y="7.8858018"
+       id="text1244"><tspan
+         sodipodi:role="line"
+         id="tspan1242"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:JuliaMono;-inkscape-font-specification:'JuliaMono Medium';fill:#1f83ff;stroke-width:0.197153"
+         x="2.6789911"
+         y="7.8858018">N</tspan></text>
+    <circle
+       style="fill:none;stroke:#1f83ff;stroke-width:0.672124;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:19.5402;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path2522"
+       cx="5.0270834"
+       cy="5.0270834"
+       r="4.5587296" />
+  </g>
+</svg>

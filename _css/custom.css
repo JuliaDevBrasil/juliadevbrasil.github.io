@@ -81,6 +81,7 @@
   --jyellow900: #332300;
 
   /* grays */
+  --gray50 : #f9fafb;
   --gray100: #f3f4f6;
   --gray200: #e5e7eb;
   --gray300: #d1d5db;
@@ -92,6 +93,7 @@
   --gray900: #111827;
 
   /* slate */
+  --slate50 : #f8fafc;
   --slate100: #f1f5f9;
   --slate200: #e2e8f0;
   --slate300: #cbd5e1;

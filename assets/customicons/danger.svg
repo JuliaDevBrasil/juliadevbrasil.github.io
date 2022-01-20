@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="38"
+   height="38"
+   viewBox="0 0 10.054166 10.054167"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="danger.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     height="1120.5197px"
+     inkscape:zoom="4.359103"
+     inkscape:cx="30.510864"
+     inkscape:cy="11.01144"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1965"
+       transform="matrix(0.74514762,0,0,0.74514762,-33.194771,-89.00919)">
+      <g
+         aria-label="!"
+         id="text1244"
+         style="font-size:10.5833px;line-height:1.25;font-family:'CMU Classical Serif';-inkscape-font-specification:'CMU Classical Serif';fill:#ca3c32;stroke-width:0.264583">
+        <path
+           d="m 51.839376,127.81213 h -1.090079 l -0.275166,-5.4451 h 1.640411 z m -0.545039,2.60349 q -0.412749,0 -0.64029,-0.22224 -0.222249,-0.22755 -0.222249,-0.64029 0,-0.41275 0.222249,-0.635 0.227541,-0.22225 0.64029,-0.22225 0.412748,0 0.634997,0.22225 0.227541,0.22225 0.227541,0.635 0,0.41274 -0.227541,0.64029 -0.222249,0.22224 -0.634997,0.22224 z"
+           style="font-weight:500;font-family:JuliaMono;-inkscape-font-specification:'JuliaMono Medium'"
+           id="path1940" />
+      </g>
+      <path
+         id="path2522"
+         style="fill:none;stroke:#ca3c32;stroke-width:0.902;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:19.5402;paint-order:markers stroke fill"
+         d="m 57.412227,126.19818 a 6.1178885,6.1178885 0 0 1 -6.117889,6.11789 6.1178885,6.1178885 0 0 1 -6.117888,-6.11789 6.1178885,6.1178885 0 0 1 6.117888,-6.11789 6.1178885,6.1178885 0 0 1 6.117889,6.11789 z" />
+    </g>
+  </g>
+</svg>

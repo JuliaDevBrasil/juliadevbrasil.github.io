@@ -289,23 +289,23 @@ div.navlogo{
 
 img.navlogo{
   width: 13rem;
-  /* display: inline; */
 }
 
 
 @media screen and (min-width: 992px){
 
  .navbar ul {
-   max-width: 1520px;
+   max-width: 1300px;
    margin: 0 auto;
    display: grid;
-   grid-template-columns: 2fr 1fr;
+   grid-template-columns: 3fr 1fr;
   } 
 
   .navmain{
     display: inline-flex;
     margin: 0;
     border-bottom: 0;
+    column-gap: 2rem;
   }
 
   div.navlogo{

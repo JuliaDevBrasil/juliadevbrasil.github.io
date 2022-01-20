@@ -8,110 +8,33 @@
   `jutify-content` for horizontal alignment
   `align-items` for vertical alignment
 */
+
 *{
   margin:0;
-  padding:0;
-  font-family:Lato;
-  font-weight:400;
+  padding: 0;
+  box-sizing:border-box;
 }
 
-:root{
-  --primaryColor:#f15025;
-  --secondaryColor:green;
-  --mainTransition: all 2s linear;
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #222;
 }
 
-.navbar{
-  width:100%;
-  font-size:1.5rem;
-  background:white;
-  color:black;
-  margin-top: 0;
-  position:fixed;
-  padding:0.5em 1.0em;
-  z-index:10;
-}
-
-.nav{
-  padding-top:0.5em;
-  padding-left:1em;
-  height:2em;
-  float: left;
-}
-img.nav{
-  padding:0.2em;
-  height:2em;
-  float: left;
-}
-
-a.nav{
-  position:relative;
-  left:200px;
-  text-decoration: none;
-  color:black;
-  transition-property: color, text-shadow;
-  transition-duration: 0.2s;
-}
-
-a.nav:hover{
-  color:var(--primaryColor);
-  text-shadow:3px 3px 4px black;
-}
-
-
-p::before{
-  content:"";
-  display:block;
-  width:10px;
-  height:10px;
-  background:black;
-}
-
-div.image{
-  height:100vh;
-  background: linear-gradient(rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5))
-  ,url("../assets/rocket.jpg");
-  background-repeat: no-repeat;
-  /* border: 2px solid red; */
-  background-size: cover;
-  background-position: 0% 10%;
-  display: flex;
-  justify-content:top;
-  align-items:top;
-  background-attachment: fixed;
-}
-
-
-.herotitle{
-  margin: auto;
-  /* text-transform:uppercase; */
-  text-align:center;
-  font-weight: 100;
-  font-size: 2em;
-  color: white;
-}
-
-@media screen and (min-width: 576px){
-  .herotitle{
-    font-size: 4em;
-  }
-}
-
-.box1{
-  background:red;
-}
-.box2{
-  background:green;
-}
-.box3{
-  background:purple;
-}
 .container{
-  /* width: 100%; */
-  align-items: center;
-  margin:40px;
-  border: 2px solid red;
+  height:100vh;
+  border:5px solid black;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  column-gap: 50px;
+}
+
+.cell{
   display: flex;
-  /* height:200px; */
+  align-items: center;
+  justify-content: center;
+  background:#dedede;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid red;
 }

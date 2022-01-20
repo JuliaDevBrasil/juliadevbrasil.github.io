@@ -1,4 +1,4 @@
-<a href='https://juliadev.com.br'><img src="_assets/logo/logo.svg" height="150" /></a>
+<a href='https://juliadev.com.br'><img src="_assets/logo/logo.svg" height="120" /></a>
 
 ---- 
 

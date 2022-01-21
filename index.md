@@ -5,7 +5,7 @@
 
 @@section
 # :computer: Julia em Pt/Br
-### Um site para difundir programação em Julia no Brasil.
+### Difundindo programação em Julia no Brasil.
 JuliaDev Brasil é um site [aberto](https://github.com/JuliaDevBrasil/juliadevbrasil.github.io)
 focado em disponibilizar conteúdo de qualidade e em **português** sobre programação em Julia.
 Para os não iniciados, Julia é uma linguagem de programação *jovem*, mas  com potencial incrível.
@@ -24,11 +24,16 @@ Para os não iniciados, Julia é uma linguagem de programação *jovem*, mas  co
 
 @@section
 ~~~
-<button class="btn-slide" onclick="plusDivs(-1)">&#10094;</button>
+<div class="container">
+  <button class="btn-slide" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="btn-slide" onclick="plusDivs(+1)">&#10095;</button>
+  <p class="slide-title"> Exemplos de Códigos em Julia</p>
+</div>
 ~~~
 
 @@mySlides
 ```julia:plot
+# Plotando Função
 using Plots
 plt = plot([cos, sin], -π/2, 2π)
 savefig(plt, joinpath(@OUTPUT, "plt.svg")) # hide
@@ -37,12 +42,13 @@ savefig(plt, joinpath(@OUTPUT, "plt.svg")) # hide
 @@ <!-- mySlides end -->
 
 @@mySlides
-```julia:plot
+```julia:alglin
 using LinearAlgebra
 A = rand(10,10)
 x = rand(10)
 A * x
 ```
+\show{alglin}
 @@ <!-- mySlides end -->
 @@ <!-- section end -->
 

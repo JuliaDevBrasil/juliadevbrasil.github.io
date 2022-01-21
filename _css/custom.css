@@ -228,6 +228,18 @@ img:not(.navlogo) {
   width: 100%;
 }
 
+.btn-slide {
+  margin-right: 0.5rem;
+  padding: 0 0.4rem 0.2rem 0.4rem;
+  background-color:var(--textColor);
+  border: 0;
+  color: white;
+}
+
+p.slide-title{
+  font-weight:500;
+  text-transform: uppercase;
+}
 
 
 aside {
@@ -369,9 +381,14 @@ img.navlogo{
   place-items: center;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 /* This weird selection is due to Franklin's parse of Markdown */
 /* which places a `a` inside every header. */
+
 .section h1,
 .section h2,
 .section h3,
@@ -384,13 +401,14 @@ img.navlogo{
 .section h5 a,
 .section ul,
 .section code,
+.section .container,
 .section p
 {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
   color:var(--textColor);
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .section img
 {
@@ -430,9 +448,11 @@ img.navlogo{
   .section p,
   .section ul,
   .section code,
+  .section .container,
   .section a
   {
     width: 40vw;
+    /* border: 2px solid red; */
   }
 
   .section img
@@ -453,9 +473,13 @@ img.navlogo{
 .language-julia {
   background-color: var(--codeColor);
   border: 2px solid var(--slate800);
-  margin: 1rem auto;
+  /* margin: 1rem; */
   padding: 1.0rem 1.8rem;
   border-radius: 3px;
+}
+
+pre{
+  margin-top:1rem;
 }
 
 

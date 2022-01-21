@@ -38,9 +38,10 @@ jobs:
             using Franklin;
             optimize()'
     - name: Build and Deploy
+      env:
+        GKSwstype: '100'
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
         FOLDER: __site
-        GKSwstype: '100'

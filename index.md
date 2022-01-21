@@ -9,8 +9,19 @@
 JuliaDev Brasil é um site [aberto](https://github.com/JuliaDevBrasil/juliadevbrasil.github.io)
 focado em disponibilizar conteúdo de qualidade e em **português** sobre programação em Julia.
 Para os não iniciados, Julia é uma linguagem de programação *jovem*, mas  com potencial incrível.
-Ela é simples, rápida, 
+Nas palavras do seus criadores;
+"
+Nós somos ambiciosos: nós queremos mais.
 
+Queremos uma linguagem de código aberto, com licença permissiva. Queremos a velocidade de `C`
+com o dinamismo de `Ruby`. Queremos uma linguagem homoicônica, com verdadeiras macro como `Lisp`,
+mas com a obviedade e notação matemática familiar a `Matlab`.
+Queremos algo tão útil para programação em geral como `Python`, tão fácil para estatística como `R`,
+tão natural para processamento de *strings* como `Pearl`, tão poderosa para álgebra linear como
+`Matlab`, tão boa em concatenar programas como a `shell`.
+Algo que seja ridiculamente simples de aprender, mas que mantenha programadores de alto nível felizes.
+Queremos que ela seja iterativa e queremos que ela seja compilada.
+"
 ~~~
 <button class="btn" onclick="plusDivs(-1)">&#10094;</button>
 ~~~

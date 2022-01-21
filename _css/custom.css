@@ -314,7 +314,7 @@ img.navlogo{
   }
 
  .navbar ul {
-   max-width: 1300px;
+   max-width: 90vw;
    margin: 0 auto;
    display: grid;
    grid-template-columns: 3fr 1fr;
@@ -341,7 +341,7 @@ img.navlogo{
 
 @media screen and (min-width: 1532px){
  .navbar ul {
-   max-width: 1300px;
+   max-width: 90vw;
    margin: 0 auto;
    display: grid;
    grid-template-columns: 3fr 1fr;

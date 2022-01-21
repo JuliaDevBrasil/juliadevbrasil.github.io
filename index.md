@@ -11,13 +11,38 @@ focado em disponibilizar conteúdo de qualidade e em **português** sobre progra
 Para os não iniciados, Julia é uma linguagem de programação *jovem*, mas  com potencial incrível.
 Ela é simples, rápida, 
 
+~~~
+<button class="btn" onclick="plusDivs(-1)">&#10094;</button>
+~~~
+
+@@mySlides
 ```julia:plot
 using Plots
 plt = plot([cos, sin], -π/2, 2π)
 savefig(plt, joinpath(@OUTPUT, "plt.svg")) # hide
 ```
 \fig{plt.svg}
+@@
+
+@@mySlides
+```julia:plot
+using LinearAlgebra
+A = rand(10,10)
+x = rand(10)
+A * x
+```
+@@
 
 @@
 @@
 
+<!-- ~~~ -->
+<!-- <!-- <img class="mySlides" src="./assets/coffee.jpg"> --> -->
+<!-- <button class="btn" onclick="plusDivs(-1)">&#10094;</button> -->
+<!-- <div class="mySlides"> -->
+<!--   <p>Exemplo Slide 1</p> -->
+<!-- </div> -->
+<!-- <div class="mySlides"> -->
+<!--   <p>Exemplo Slide 2</p> -->
+<!-- </div> -->
+<!-- ~~~ -->

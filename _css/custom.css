@@ -421,3 +421,14 @@ img.navlogo{
   }
 }
 
+
+/* 
+=================
+    Carousel Code
+=================
+*/
+
+.mySlides{
+  display: none;
+}
+

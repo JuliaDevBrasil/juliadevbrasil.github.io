@@ -11,5 +11,13 @@ focado em disponibilizar conteúdo de qualidade e em **português** sobre progra
 Para os não iniciados, Julia é uma linguagem de programação *jovem*, mas  com potencial incrível.
 Ela é simples, rápida, 
 
+```julia:plot
+using Plots
+plt = plot([cos, sin], -π/2, 2π)
+savefig(plt, joinpath(@OUTPUT, "plt.svg")) # hide
+```
+\fig{plt.svg}
+
 @@
 @@
+

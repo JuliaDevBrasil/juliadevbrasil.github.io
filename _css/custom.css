@@ -108,12 +108,13 @@
   --backgroundColor: #f0f0ef;
   --textColor: #323537;
   --borderColor: #bcbcbd;
+  --codeColor:  rgb(245 245 245);
   
 
   --headingFont: "SpaceGrotesk-Bold", sans-serif;
   --bodyFont: "IBM Plex Sans", sans-serif;
   --componentFont: "JuliaMono", "Monaco", "Menlo", monospace;
-   --borderRadius: 0.15rem;
+  --borderRadius: 0.15rem;
 
   --max-width: 1120px;
   --fixed-width: 600px;
@@ -358,9 +359,6 @@ img.navlogo{
 =================
 */
 
-.hero{
-}
-
 .hero-img{
   display: none;
 }
@@ -384,12 +382,20 @@ img.navlogo{
 .section h3 a,
 .section h4 a,
 .section h5 a,
+.section ul,
+.section code,
 .section p
 {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
   color:var(--textColor);
+  border: 2px solid red;
+}
+.section img
+{
+  padding:2rem;
+  width: 100%;
 }
 
 .section a
@@ -400,6 +406,11 @@ img.navlogo{
   max-width: 1170px;
 }
 
+.hero-banner ul {
+  list-style-type: square;
+  padding: 1.1rem;
+}
+
 @media screen and (min-width: 992px){
 
   .hero-banner{
@@ -407,7 +418,8 @@ img.navlogo{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
-    place-items: center;
+    align-items: start;
+    justify-content: center;
   }
 
   .section h1,
@@ -416,6 +428,8 @@ img.navlogo{
   .section h4,
   .section h5,
   .section p,
+  .section ul,
+  .section code,
   .section a
   {
     width: 40vw;
@@ -428,14 +442,32 @@ img.navlogo{
   }
 }
 
+@media screen and (min-width: 1532px){
+}
 
 /* 
 =================
-    Carousel Code
+      Code
+=================
+*/
+.language-julia {
+  background-color: var(--codeColor);
+  border: 2px solid var(--slate800);
+  margin: 1rem auto;
+  padding: 1.0rem 1.8rem;
+  border-radius: 3px;
+}
+
+
+/* 
+=================
+ Carousel Script
 =================
 */
 
 .mySlides{
   display: none;
 }
+
+
 

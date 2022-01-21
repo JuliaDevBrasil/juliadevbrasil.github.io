@@ -34,13 +34,13 @@ Para os não iniciados, Julia é uma linguagem de programação *jovem*, mas  co
 
 @@mySlides
 test
-<!-- ```julia:plot -->
-<!-- # Plotando Função -->
-<!-- using Plots -->
-<!-- plt = plot([cos, sin], -π/2, 2π); -->
-<!-- savefig(plt, joinpath(@OUTPUT, "plt.svg")) # hide -->
-<!-- ``` -->
-<!-- \fig{plt.svg} -->
+```julia:plot
+# Plotando Função
+using Plots
+plt = plot([cos, sin], -π/2, 2π);
+savefig(plt, joinpath(@OUTPUT, "plt.svg")) # hide
+```
+\fig{plt.svg}
 @@ <!-- mySlides end -->
 
 @@mySlides

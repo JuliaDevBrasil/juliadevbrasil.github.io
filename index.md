@@ -33,23 +33,25 @@ Para os não iniciados, Julia é uma linguagem de programação *jovem*, mas  co
 ~~~
 
 @@mySlides
-```julia:plot
-# Plotando Função
-using Plots
-plt = plot([cos, sin], -π/2, 2π);
-savefig(plt, joinpath(@OUTPUT, "plt.svg")) # hide
-```
-\fig{plt.svg}
+test
+<!-- ```julia:plot -->
+<!-- # Plotando Função -->
+<!-- using Plots -->
+<!-- plt = plot([cos, sin], -π/2, 2π); -->
+<!-- savefig(plt, joinpath(@OUTPUT, "plt.svg")) # hide -->
+<!-- ``` -->
+<!-- \fig{plt.svg} -->
 @@ <!-- mySlides end -->
 
 @@mySlides
-```julia:alglin
-using LinearAlgebra
-A = rand(10,10)
-x = rand(10)
-A * x
-```
-\show{alglin}
+test
+<!-- ```julia:alglin -->
+<!-- using LinearAlgebra -->
+<!-- A = rand(10,10) -->
+<!-- x = rand(10) -->
+<!-- A * x -->
+<!-- ``` -->
+<!-- \show{alglin} -->
 @@ <!-- mySlides end -->
 @@ <!-- section end -->
 

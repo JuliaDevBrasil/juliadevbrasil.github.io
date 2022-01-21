@@ -189,7 +189,7 @@ ul {
   padding: 0;
 }
 
-.img:not(.navlogo) {
+img:not(.navlogo) {
   width: 100%;
   display: block;
   object-fit: cover;
@@ -228,6 +228,7 @@ ul {
 }
 
 
+
 aside {
     max-width: 37rem;
     margin: 0 auto 1.6rem auto;
@@ -254,11 +255,13 @@ aside.info{
   background-color: rgba(0, 0, 0, 0);
   padding: 0 2rem;
   margin-top: 1.6rem;
+  height:11rem;
 }
 
 .navmain{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 1rem 0;
   border-bottom: 2px solid var(--gray300);
 }
@@ -291,8 +294,11 @@ img.navlogo{
   width: 13rem;
 }
 
-
 @media screen and (min-width: 992px){
+
+  .navbar {
+    height:6rem;
+  }
 
  .navbar ul {
    max-width: 1300px;
@@ -313,10 +319,12 @@ img.navlogo{
     justify-content: flex-start;
   }
   img.navlogo{
-    height: 100%;
+    /* height: 100%; */
+    width:14rem;
+    /* height: 4rem; */
   }
-}
 
+}
 
 @media screen and (min-width: 1532px){
  .navbar ul {
@@ -326,3 +334,76 @@ img.navlogo{
    grid-template-columns: 3fr 1fr;
   } 
 }
+
+/* Future DarkMode */
+/*   .btn-toggle-desktop { */
+/*     font-family:var(--componentFont); */
+/*     color: var(--borderColor); */
+/*     background: var(--backgroundColor); */
+/*     border-width:0px; */
+/*     border-radius: 0.5rem; */
+/*     padding: 0.5rem 0.8rem 0.3rem 0.8rem; */
+/*     display: inline-block; */
+/*     transition: var(--transition); */
+/*   } */
+/*   .btn-toggle-desktop:hover { */
+/*     background: var(--slate200); */
+/*   } */
+
+
+
+/* 
+=================
+    Hero
+=================
+*/
+
+.hero{
+}
+
+.hero-img{
+  display: none;
+}
+
+.hero-banner{
+  min-height: calc(100vh - 11rem - 1.6rem);
+  border: 2px solid red;
+  display: grid;
+  place-items: center;
+}
+
+.section h1,
+.section h2,
+.section h3,
+.section h4,
+.section h5,
+.section p,
+.section img,
+.section a
+{
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+@media screen and (min-width: 992px){
+
+  .hero-banner{
+    min-height: calc(100vh - 6rem - 1.6rem);
+    border: 2px solid red;
+    display: grid;
+    place-items: center;
+  }
+
+  .section h1,
+  .section h2,
+  .section h3,
+  .section h4,
+  .section h5,
+  .section p,
+  .section a
+  {
+    width: 95vw;
+  }
+}
+

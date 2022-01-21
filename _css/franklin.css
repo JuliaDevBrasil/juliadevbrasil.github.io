@@ -316,7 +316,7 @@
 
 /* .hljs-metas { color: red; } */
 
-/* .hljs-metap { color: rgb(51, 131, 231); } */
+.hljs-metap { color: rgb(51, 131, 231); }
 
 /* .code-output { */
 /*   background: var(--output-background); */

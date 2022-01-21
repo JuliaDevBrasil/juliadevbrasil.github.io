@@ -160,7 +160,7 @@ h5 {
 
 h1 {
   margin-top: 0;
-  font-size: 3.2rem;
+  font-size: 4.2rem;
 }
 
 h2 {
@@ -367,20 +367,35 @@ img.navlogo{
 
 .hero-banner{
   min-height: calc(100vh - 11rem - 1.6rem);
-  border: 2px solid red;
   display: grid;
   place-items: center;
 }
 
+
+/* This weird selection is due to Franklin's parse of Markdown */
+/* which places a `a` inside every header. */
 .section h1,
 .section h2,
 .section h3,
 .section h4,
 .section h5,
+.section h1 a,
+.section h2 a,
+.section h3 a,
+.section h4 a,
+.section h5 a,
 .section p,
-.section img,
+.section img
+{
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  color:var(--textColor);
+}
+
 .section a
 {
+  color:var(--jblue);
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
@@ -390,7 +405,6 @@ img.navlogo{
 
   .hero-banner{
     min-height: calc(100vh - 6rem - 1.6rem);
-    border: 2px solid red;
     display: grid;
     place-items: center;
   }

@@ -44,14 +44,13 @@ test
 @@ <!-- mySlides end -->
 
 @@mySlides
-test
-<!-- ```julia:alglin -->
-<!-- using LinearAlgebra -->
-<!-- A = rand(10,10) -->
-<!-- x = rand(10) -->
-<!-- A * x -->
-<!-- ``` -->
-<!-- \show{alglin} -->
+```julia:alglin
+using LinearAlgebra
+A = rand(10,10)
+x = rand(10)
+A * x
+```
+\show{alglin}
 @@ <!-- mySlides end -->
 @@ <!-- section end -->
 

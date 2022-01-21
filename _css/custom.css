@@ -235,6 +235,11 @@ img:not(.navlogo) {
   border: 0;
   color: white;
 }
+.btn-slide:hover {
+  color: var(--textColor);
+  background: var(--slate400);
+  transition: 0.1s ease-out all;
+}
 
 p.slide-title{
   font-weight:500;

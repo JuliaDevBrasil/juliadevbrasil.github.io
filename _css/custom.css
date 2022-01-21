@@ -384,8 +384,7 @@ img.navlogo{
 .section h3 a,
 .section h4 a,
 .section h5 a,
-.section p,
-.section img
+.section p
 {
   width: 90vw;
   margin: 0 auto;
@@ -406,6 +405,8 @@ img.navlogo{
   .hero-banner{
     min-height: calc(100vh - 6rem - 1.6rem);
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
     place-items: center;
   }
 
@@ -417,7 +418,13 @@ img.navlogo{
   .section p,
   .section a
   {
-    width: 95vw;
+    width: 40vw;
+  }
+
+  .section img
+  {
+    padding:2rem;
+    width: 100%;
   }
 }
 

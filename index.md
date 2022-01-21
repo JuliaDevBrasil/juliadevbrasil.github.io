@@ -2,8 +2,8 @@
 
 
 @@hero-banner
-@@section
 
+@@section
 # :computer: Julia em Pt/Br
 ### Um site para difundir programação em Julia no Brasil.
 JuliaDev Brasil é um site [aberto](https://github.com/JuliaDevBrasil/juliadevbrasil.github.io)
@@ -21,7 +21,9 @@ Julia é uma linguagem ambiciosa:
 * Ridiculamente simples de aprender;
 * Sofisticada o bastante para programadores sérios;
 * Iterativa & Compilada.
+@@ <!-- section end -->
 
+@@section
 ~~~
 <button class="btn" onclick="plusDivs(-1)">&#10094;</button>
 ~~~
@@ -33,7 +35,7 @@ plt = plot([cos, sin], -π/2, 2π)
 savefig(plt, joinpath(@OUTPUT, "plt.svg")) # hide
 ```
 \fig{plt.svg}
-@@
+@@ <!-- mySlides end -->
 
 @@mySlides
 ```julia:plot
@@ -42,13 +44,13 @@ A = rand(10,10)
 x = rand(10)
 A * x
 ```
-@@
+@@ <!-- mySlides end -->
+@@ <!-- section end -->
 
-@@
-@@
+@@ <!-- hero-banner end -->
 
 <!-- ~~~ -->
-<!-- <!-- <img class="mySlides" src="./assets/coffee.jpg"> --> -->
+<!-- <img class="mySlides" src="./assets/coffee.jpg"> -->
 <!-- <button class="btn" onclick="plusDivs(-1)">&#10094;</button> -->
 <!-- <div class="mySlides"> -->
 <!--   <p>Exemplo Slide 1</p> -->

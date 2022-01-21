@@ -104,9 +104,10 @@
   --slate800: #1e293b;
   --slate900: #0f172a;
 
-  /* --backgroundColor: #fffffe; */
-  --backgroundColor: #f0f0ef;
+  --backgroundColor: #fffffe;
+  /* --backgroundColor: #f0f0ef; */
   --textColor: #323537;
+
   --borderColor: #bcbcbd;
   --codeColor:  rgb(245 245 245);
   
@@ -232,6 +233,7 @@ img:not(.navlogo) {
   margin-right: 0.5rem;
   padding: 0 0.4rem 0.2rem 0.4rem;
   background-color:var(--textColor);
+  /* background-color:#094067; */
   border: 0;
   color: white;
 }
@@ -297,7 +299,6 @@ aside.info{
 }
 
 .navbar a:hover{
-  color: var(--slate600);
   font-weight: 600;
   text-decoration: underline;
 }
@@ -445,6 +446,22 @@ img.navlogo{
     justify-content: center;
   }
 
+  .hero-banner .section h1,
+  .hero-banner .section h2,
+  .hero-banner .section h3,
+  .hero-banner .section h4,
+  .hero-banner .section h5,
+  .hero-banner .section p,
+  .hero-banner .section ul,
+  .hero-banner .section code,
+  .hero-banner .section .container,
+  .hero-banner .section a
+  {
+    width: 40vw;
+    /* border: 2px solid red; */
+  }
+
+
   .section h1,
   .section h2,
   .section h3,
@@ -456,8 +473,11 @@ img.navlogo{
   .section .container,
   .section a
   {
-    width: 40vw;
-    /* border: 2px solid red; */
+    width: 55vw;
+  }
+
+  .section .content{
+    padding-top: 5rem;
   }
 
   .section img
@@ -511,6 +531,7 @@ pre{
   max-width: 1170px;
   color:var(--textColor);
   text-align: center;
+  border-top: 2px solid var(--slate300);
 }
 
 /* div.copyright{ */

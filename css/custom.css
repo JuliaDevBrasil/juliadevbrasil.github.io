@@ -499,4 +499,20 @@ pre{
 }
 
 
+/* 
+=================
+      Footer
+=================
+*/
 
+.page-foot.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  color:var(--textColor);
+  text-align: center;
+}
+
+/* div.copyright{ */
+/*   border-top: 2px solid var(--slate200); */
+/* } */

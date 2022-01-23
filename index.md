@@ -25,7 +25,7 @@ Para os não iniciados, Julia é uma linguagem de programação *jovem*, mas  co
 
 @@section
 ~~~
-<div class="container">
+<div class="container-slide-header">
   <button class="btn-slide" onclick="plusDivs(-1)">&#10094;</button>
   <button class="btn-slide" onclick="plusDivs(+1)">&#10095;</button>
   <p class="slide-title"> Exemplos de Códigos em Julia</p>

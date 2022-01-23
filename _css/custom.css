@@ -248,9 +248,22 @@ p.slide-title{
   text-transform: uppercase;
 }
 
+.container-slide-header {
+  width: 90vw;
+  margin:auto;
+  display: flex;
+}
 
-aside {
-    max-width: 37rem;
+@media screen and (min-width: 992px){
+  .container-slide-header {
+    width: 40vw;
+  }
+}
+
+
+
+.aside-info {
+    max-width: 90vw;
     margin: 0 auto 1.6rem auto;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
@@ -258,11 +271,14 @@ aside {
     border-bottom-right-radius: 4px;
     position: relative;
     padding: 1.6rem 2rem;
+    background-color: var(--jyellow100);
+    border-left: 2.5px solid var(--jyellow500);
 }
 
-aside.info{
-  background-color: var(--jyellow100);
-  border-left: 2.5px solid var(--jyellow500);
+@media screen and (min-width: 992px){
+  .aside-info {
+      max-width: 57vw;
+  }
 }
 
 /* 
@@ -478,6 +494,17 @@ img.navlogo{
 
   .section .content{
     padding-top: 5rem;
+  }
+
+  .section .content h1{
+    margin-bottom: 1.5rem;
+  }
+
+  .section .content h2,
+  .section .content h3
+  {
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
   }
 
   .section img

@@ -7,9 +7,27 @@
 
 # Sobre
 
-JuliaDev Brasil é um site [aberto](https://github.com/JuliaDevBrasil/juliadevbrasil.github.io)
-focado em disponibilizar conteúdo de qualidade e em **português** sobre programação em Julia.
-Para os não iniciados, Julia é uma linguagem de programação *jovem*, mas  com potencial incrível.
+`Julia` é uma linguagem de proramção *jovem* e franco crescimento. Por conta disso, não há
+tanto material disponível como em `Python`, na qual existem infindáveis
+exemplos, tutoriais, artigos, cursos, e nos mais diversos tópicos. Essa falta de conteúdo de Julia
+é ainda mais grave quando se trata de material em Português.
+Apesar do Inglês já ser necessário para quem quer se tornar programador sério, ele ainda é uma barreira
+de entrada para muitos brasileiros, principalmente os mais jovens.
+Com isso em mente, resolvi criar o `JuliaDev Brasil`.
+
+
+### Objetivos
+
+@@aside-info
+&gt; Tornar `Julia` mais popular no Brasil;
+@@
+
+&gt; Produzir conteúdo de alta qualidade;
+
+&gt; Produzir conteúdo de alta qualidade;
+
+### Contribuindo
+
 @@ <!-- section end -->
 @@ <!-- content end -->
 

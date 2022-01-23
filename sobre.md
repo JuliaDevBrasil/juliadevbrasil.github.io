@@ -18,7 +18,7 @@ Com isso em mente, resolvi criar o `JuliaDev Brasil`.
 
 ### Objetivos
 
-@@aside-info
+@@aside-blue
 &gt; Tornar `Julia` mais popular no Brasil;
 @@
 

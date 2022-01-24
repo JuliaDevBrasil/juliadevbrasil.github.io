@@ -529,6 +529,13 @@ img.navlogo{
     margin-bottom: 1.0rem;
   }
 
+  .section .content h4,
+  .section .content h5
+  {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+  }
+
   .section img
   {
     padding:2rem;
@@ -576,7 +583,8 @@ pre{
 
 .page-foot.section {
   width: 90vw;
-  margin: 0 auto;
+  padding: 1rem;
+  margin: 2rem auto 1rem auto;
   max-width: 1170px;
   color:var(--textColor);
   text-align: center;

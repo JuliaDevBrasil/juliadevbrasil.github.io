@@ -452,7 +452,7 @@ img.navlogo{
   margin: 0 auto;
   max-width: 1170px;
   color:var(--textColor);
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 .section img
 {
@@ -472,6 +472,22 @@ img.navlogo{
   list-style-type: square;
   padding: 1.1rem;
 }
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  justify-content: center;
+  justify-items: center;
+}
+
+.grid2 .section img{
+  width: 100%;
+  height: 24rem;
+  padding:auto;
+  align-items: center;
+}
+
 
 @media screen and (min-width: 992px){
 
@@ -590,7 +606,3 @@ pre{
   text-align: center;
   border-top: 2px solid var(--slate300);
 }
-
-/* div.copyright{ */
-/*   border-top: 2px solid var(--slate200); */
-/* } */

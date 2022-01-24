@@ -52,6 +52,17 @@ A * x
 \show{alglin}
 @@ <!-- mySlides end -->
 @@ <!-- section end -->
-
 @@ <!-- hero-banner end -->
 
+@@grid2
+@@section
+![](../assets/installing.png)
+<!-- ### Instalando Julia -->
+@@
+
+@@section
+![](../assets/deeplearning.png)
+<!-- ### Deep Learning com Julia -->
+@@ <!-- section end -->
+
+@@ <!-- hero-banner end -->
